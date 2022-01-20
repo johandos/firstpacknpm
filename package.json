@@ -4,7 +4,10 @@
   "description": "Fisrt Pack with npm",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "npm run format && npm run build",
+    "hola": "node"
   },
   "keywords": [
     "javascript",
@@ -14,9 +17,15 @@
   "author": "Johan Ospina <johan.ospina05@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "moment": "^2.29.1"
+    "moment": "^2.29.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   },
   "optionalDependencies": {
     "eslint": "^8.7.0"
-  }
+  },
+  "bin": {
+    "random-msg": "./bin/global.js"
+  },
+  "preferGlobal": true
 }
