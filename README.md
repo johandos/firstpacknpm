@@ -11,7 +11,7 @@ npm install -g random-msg
 # Usage
 
 ```bash
-funny-commit
+random-msg
 ```
 
 # Contributing
