@@ -1,6 +1,6 @@
 {
   "name": "firstpacknpm",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Fisrt Pack with npm",
   "main": "src/index.js",
   "scripts": {
@@ -25,7 +25,16 @@
     "eslint": "^8.7.0"
   },
   "bin": {
-    "random-msg": "./bin/global.js"
+    "random-msg": "bin/global.js"
   },
-  "preferGlobal": true
+  "preferGlobal": true,
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johandos/firstpacknpm.git"
+  },
+  "bugs": {
+    "url": "https://github.com/johandos/firstpacknpm/issues"
+  },
+  "homepage": "https://github.com/johandos/firstpacknpm#readme"
 }
